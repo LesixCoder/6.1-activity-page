@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html {
+  font-size: 625%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: '汉仪PP体简', arial, '\5b8b\4f53';
+  background: #2433df;
+  color: #000;
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.wechat-wrap {
+  position: relative;
+  width: 7.2rem;
+  margin: 0 auto;
+  background: #2433df;
+}
+.wechat-bg {
+  position: absolute;
+}
+.wechat-content {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.wechat-content-logo,
+.wechat-content-text {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+.wechat-content-logo {
+  top: 2.2rem;
+  left: 3.8rem;
+}
+.wechat-content-logo li,
+.wechat-content-text li {
+  text-indent: -99em;
+  overflow: hidden;
+}
+.wechat-content-logo li {
+  float: left;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.logo-1 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-1.png') no-repeat;
+}
+.logo-1.logo-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-1-sel.png') no-repeat;
+}
+.logo-2 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-2.png') no-repeat;
+}
+.logo-2.logo-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-2-sel.png') no-repeat;
+}
+.logo-3 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-3.png') no-repeat;
+}
+.logo-3.logo-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-3-sel.png') no-repeat;
+}
+.logo-4 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-4.png') no-repeat;
+}
+.logo-4.logo-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-4-sel.png') no-repeat;
+}
+.logo-5 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-5.png') no-repeat;
+}
+.logo-5.logo-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-5-sel.png') no-repeat;
+}
+.logo-6 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-6.png') no-repeat;
+}
+.logo-6.logo-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/logo-6-sel.png') no-repeat;
+}
+.wechat-content-text {
+  top: 6.7rem;
+  left: 0.9rem;
+}
+.wechat-content-text li {
+  width: 2.7rem;
+  height: 0.5rem;
+  margin-bottom: 0.26rem;
+}
+.text-1 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-1.png') no-repeat;
+}
+.text-1.text-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-1-sel.png') no-repeat;
+}
+.text-2 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-2.png') no-repeat;
+}
+.text-2.text-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-2-sel.png') no-repeat;
+}
+.text-3 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-3.png') no-repeat;
+}
+.text-3.text-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-3-sel.png') no-repeat;
+}
+.text-4 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-4.png') no-repeat;
+}
+.text-4.text-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-4-sel.png') no-repeat;
+}
+.text-5 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-5.png') no-repeat;
+}
+.text-5.text-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-5-sel.png') no-repeat;
+}
+.text-6 {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-6.png') no-repeat;
+}
+.text-6.text-select {
+  background: url('http://p9jsg0u8l.bkt.clouddn.com/text-6-sel.png') no-repeat;
+}
+.wechat-content-headImg {
+  position: relative;
+  top: 6.73rem;
+  left: 3.97rem;
+  width: 2.94rem;
+  height: 2.94rem;
+}
+.wechat-content-headImg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.headImg-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.headImg-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.headImg-logo {
+  position: absolute;
+  left: 0.05rem;
+  top: 0;
+  width: 0.9rem;
+}
+.saveBtn {
+  position: absolute;
+  top: 10.1rem;
+  right: 0.1rem;
+  width: 3rem;
+  height: 0.68rem;
+  background: url('/image/saveBtn.png') no-repeat center center;
+  border: none;
+  outline: none;
+}
+
+#images {
+  position: absolute;
+  top: 6.73rem;
+  left: 3.97rem;
+  z-index: 999;
+  width: 2.94rem;
+  height: 2.94rem;
+  text-indent: -99em;
+  overflow: hidden;
+}
+
+/* 预加载图片 */
+.preload-img:after{
+  content:"";
+  background: url("http://p9jsg0u8l.bkt.clouddn.com/text-1-sel.png") no-repeat -10000px -1000px,url("http://p9jsg0u8l.bkt.clouddn.com/text-2-sel.png") no-repeat -10000px -1000px,url("http://p9jsg0u8l.bkt.clouddn.com/text-3-sel.png") no-repeat -10000px -1000px,url("http://p9jsg0u8l.bkt.clouddn.com/text-4-sel.png") no-repeat -10000px -1000px,url("http://p9jsg0u8l.bkt.clouddn.com/text-5-sel.png") no-repeat -10000px -1000px,url("http://p9jsg0u8l.bkt.clouddn.com/logo-1-sel.png") no-repeat -10000px -1000px,url("http://p9jsg0u8l.bkt.clouddn.com/logo-2-sel.png") no-repeat -10000px -1000px,url("http://p9jsg0u8l.bkt.clouddn.com/logo-3-sel.png") no-repeat -10000px -1000px,url("http://p9jsg0u8l.bkt.clouddn.com/logo-4-sel.png") no-repeat -10000px -1000px,url("http://p9jsg0u8l.bkt.clouddn.com/logo-5-sel.png") no-repeat -10000px -1000px,url("http://p9jsg0u8l.bkt.clouddn.com/logo-6-sel.png") no-repeat -10000px -1000px;
+}

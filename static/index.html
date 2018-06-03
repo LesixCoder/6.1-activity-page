@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=720, minimal-ui, user-scalable=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/css/index.css" />
+    <!-- html2canvas将Dom节点在Canvas里边画出来 -->
+    <script src="/js/html2canvas.min.js"></script>
+
+    <!-- 将canvas图片保存成图片 -->
+    <script src="/js/canvas2image.js"></script>
+    <script src="/js/base64.js"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="wechat-wrap wechat-phone" id="wechat-wrap">
+        <div class="wechat-bg">
+            <img src="/image/bg.png" alt="">
+        </div>
+        <div class="wechat-content">
+            <ul class="wechat-content-logo">
+                <li class="logo-1 logo-select">1</li>
+                <li class="logo-2">2</li>
+                <li class="logo-3">3</li>
+                <li class="logo-4">4</li>
+                <li class="logo-5">5</li>
+                <li class="logo-6">6</li>
+            </ul>
+            <ul class="wechat-content-text">
+                <li class="text-1 text-select">1</li>
+                <li class="text-2">2</li>
+                <li class="text-3">3</li>
+                <li class="text-4">4</li>
+                <li class="text-5">5</li>
+            </ul>
+            <div class="wechat-content-headImg" id="content">
+                <div class="headImg-img">
+                    <img src="http://p9jsg0u8l.bkt.clouddn.com/logo-1.png" alt="头像">
+                </div>
+                <div class="headImg-text">
+                    <img src="/image/effect/eff-1.png" alt="">
+                </div>
+                <div class="headImg-logo">
+                    <img src="/image/head/logo-1.png" alt="">
+                </div>
+            </div>
+            <div id="images" style="">图片预览</div>
+        </div>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/h5.js"></script>
+</body>
+
+</html>
